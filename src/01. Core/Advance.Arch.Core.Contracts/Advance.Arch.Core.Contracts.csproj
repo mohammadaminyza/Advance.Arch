@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Contracts" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Advance.Arch.Core.Domain\Advance.Arch.Core.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TodoTasks\Queries\GetTodoTasks\" />
+    <Folder Include="TodoTasks\QueryModels\Inputs\" />
+    <Folder Include="TodoTasks\QueryModels\Outputs\" />
+  </ItemGroup>
+
+</Project>

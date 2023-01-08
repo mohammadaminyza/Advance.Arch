@@ -1,4 +1,4 @@
-﻿namespace Advance.Arch.Core.Domain.Tasks.Enums;
+﻿namespace Advance.Arch.Core.Domain.TodoTasks.Enums;
 
 public enum TaskState
 {

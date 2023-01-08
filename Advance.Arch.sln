@@ -11,19 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Endpoint", "03. Endpoin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Infra", "02. Infra", "{CED79B50-A42D-4951-960A-5C5865B7ED49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advance.Arch.Endpoint", "src\03. Endpoint\Advance.Arch.Endpoint\Advance.Arch.Endpoint.csproj", "{7372252C-393B-45B0-A9B0-ECA383FDAC9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Endpoint", "src\03. Endpoint\Advance.Arch.Endpoint\Advance.Arch.Endpoint.csproj", "{7372252C-393B-45B0-A9B0-ECA383FDAC9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8555B271-BF66-4306-B999-774CC3695129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advance.Arch.Core.Domain", "src\01. Core\Advance.Arch.Core.Domain\Advance.Arch.Core.Domain.csproj", "{CA9C557F-121F-413A-8EB6-ECDAE2357E9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Core.Domain", "src\01. Core\Advance.Arch.Core.Domain\Advance.Arch.Core.Domain.csproj", "{CA9C557F-121F-413A-8EB6-ECDAE2357E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advance.Arch.Core.ApplicationService", "src\01. Core\Advance.Arch.Core.ApplicationService\Advance.Arch.Core.ApplicationService.csproj", "{C0E70572-104A-4F0E-911F-085534164F78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Core.ApplicationService", "src\01. Core\Advance.Arch.Core.ApplicationService\Advance.Arch.Core.ApplicationService.csproj", "{C0E70572-104A-4F0E-911F-085534164F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advance.Arch.Infra.Data.SqlCommands", "src\02. Infra\Data\Advance.Arch.Infra.Data.SqlCommands\Advance.Arch.Infra.Data.SqlCommands.csproj", "{394C48A6-8547-4E8B-859E-E5B6AE3AFB7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Infra.Data.SqlCommands", "src\02. Infra\Data\Advance.Arch.Infra.Data.SqlCommands\Advance.Arch.Infra.Data.SqlCommands.csproj", "{394C48A6-8547-4E8B-859E-E5B6AE3AFB7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advance.Arch.Infra.Data.SqlQueries", "src\02. Infra\Data\Advance.Arch.Infra.Data.SqlQueries\Advance.Arch.Infra.Data.SqlQueries.csproj", "{D80C4437-9F07-47D0-9414-FF8C8010C4F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Infra.Data.SqlQueries", "src\02. Infra\Data\Advance.Arch.Infra.Data.SqlQueries\Advance.Arch.Infra.Data.SqlQueries.csproj", "{D80C4437-9F07-47D0-9414-FF8C8010C4F8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Core.DomainService", "src\01. Core\Advance.Arch.Core.DomainService\Advance.Arch.Core.DomainService.csproj", "{B744D848-6D26-44CC-941D-F1B60B088287}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Core.Contracts", "src\01. Core\Advance.Arch.Core.Contracts\Advance.Arch.Core.Contracts.csproj", "{9959F882-4A98-461A-824D-BA3D168C7A56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{78F3ADD5-5712-44CB-9581-821D2E2C191D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advance.Arch.Infra.Tools.AutoMapper", "src\02. Infra\Tools\Advance.Arch.Infra.Tools.AutoMapper\Advance.Arch.Infra.Tools.AutoMapper.csproj", "{EFFFBC29-2913-4E31-AE68-8F2FE1B62A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,14 @@ Global
 		{B744D848-6D26-44CC-941D-F1B60B088287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B744D848-6D26-44CC-941D-F1B60B088287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B744D848-6D26-44CC-941D-F1B60B088287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9959F882-4A98-461A-824D-BA3D168C7A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9959F882-4A98-461A-824D-BA3D168C7A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9959F882-4A98-461A-824D-BA3D168C7A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9959F882-4A98-461A-824D-BA3D168C7A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFFBC29-2913-4E31-AE68-8F2FE1B62A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFFBC29-2913-4E31-AE68-8F2FE1B62A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFFBC29-2913-4E31-AE68-8F2FE1B62A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFFBC29-2913-4E31-AE68-8F2FE1B62A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +84,9 @@ Global
 		{394C48A6-8547-4E8B-859E-E5B6AE3AFB7A} = {8555B271-BF66-4306-B999-774CC3695129}
 		{D80C4437-9F07-47D0-9414-FF8C8010C4F8} = {8555B271-BF66-4306-B999-774CC3695129}
 		{B744D848-6D26-44CC-941D-F1B60B088287} = {F206808B-A79E-4940-BBE7-CF37D0591F80}
+		{9959F882-4A98-461A-824D-BA3D168C7A56} = {F206808B-A79E-4940-BBE7-CF37D0591F80}
+		{78F3ADD5-5712-44CB-9581-821D2E2C191D} = {CED79B50-A42D-4951-960A-5C5865B7ED49}
+		{EFFFBC29-2913-4E31-AE68-8F2FE1B62A66} = {78F3ADD5-5712-44CB-9581-821D2E2C191D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69572FA2-A023-4B3D-A33B-7C3E0B0DC2BF}
