@@ -2,18 +2,21 @@
 
 public class Name : BaseValueObject<Name>
 {
-    public string Value { get; set; }
+    public string Value { get; private set; }
 
     public Name(string value)
     {
         Value = value;
     }
 
-    public override bool ObjectIsEqual(Name otherObject) => Value == otherObject.Value;
-    public override int ObjectGetHashCode() => Value.GetHashCode();
+    protected override IEnumerable<object> GetEqualityComponents()
+    {
+        yield return Value;
+    }
 
     public static explicit operator string(Name name) => name.Value;
     public static implicit operator Name(string value) => new(value);
+
 
     #region Methods
 

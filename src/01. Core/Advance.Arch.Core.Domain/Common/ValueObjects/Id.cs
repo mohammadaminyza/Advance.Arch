@@ -2,7 +2,7 @@
 
 public class Id : BaseValueObject<Id>
 {
-    public Guid Value { get; set; }
+    public Guid Value { get; private set; }
 
     public Id(Guid value)
     {
@@ -18,9 +18,10 @@ public class Id : BaseValueObject<Id>
         Value = Guid.NewGuid();
     }
 
-    public override bool ObjectIsEqual(Id otherObject) => Value == otherObject.Value;
-    public override int ObjectGetHashCode() => Value.GetHashCode();
-
+    protected override IEnumerable<object> GetEqualityComponents()
+    {
+        yield return Value;
+    }
 
     public static explicit operator Guid(Id id) => id.Value;
     public static implicit operator Id(Guid value) => new(value);
