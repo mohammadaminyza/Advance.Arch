@@ -1,4 +1,4 @@
-﻿using Advance.Arch.Core.Contracts.Utilities;
+﻿using Advance.Arch.Core.Contracts.Common.Utilities;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using System.Linq.Expressions;

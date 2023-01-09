@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Advance.Arch.Core.Contracts.Utilities;
+namespace Advance.Arch.Core.Contracts.Common.Utilities;
 
 public interface IObjectMapper
 {

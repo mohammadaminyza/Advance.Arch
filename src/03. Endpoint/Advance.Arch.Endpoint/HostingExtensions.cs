@@ -1,5 +1,5 @@
 ﻿using Advance.Arch.Core.Contracts.Common;
-using Advance.Arch.Core.Contracts.Utilities;
+using Advance.Arch.Core.Contracts.Common.Utilities;
 using Advance.Arch.Infra.Tools.AutoMapper.Common;
 using AutoMapper;
 using MediatR;

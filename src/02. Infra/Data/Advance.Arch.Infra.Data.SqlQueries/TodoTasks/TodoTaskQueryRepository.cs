@@ -1,7 +1,7 @@
-﻿using Advance.Arch.Core.Contracts.TodoTasks.QueryModels.Inputs;
+﻿using Advance.Arch.Core.Contracts.Common.Utilities;
+using Advance.Arch.Core.Contracts.TodoTasks.QueryModels.Inputs;
 using Advance.Arch.Core.Contracts.TodoTasks.QueryModels.Outputs;
 using Advance.Arch.Core.Contracts.TodoTasks.Repositories;
-using Advance.Arch.Core.Contracts.Utilities;
 using Advance.Arch.Core.Domain.TodoTasks.Enums;
 using Advance.Arch.Infra.Data.SqlQueries.Common;
 using Advance.Arch.Infra.Data.SqlQueries.Common.Extensions;
